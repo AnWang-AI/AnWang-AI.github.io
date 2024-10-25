@@ -30,7 +30,7 @@ PrePrint
 
 International Conferences
 ------
-1. **An Wang**, Junfeng Jiang, Youmi Ma, Ao Liu, and Naoaki Okazaki. 2023. Generative Data Augmentation for Aspect Sentiment Quad Prediction. In *Proceedings of the 12th Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics. Toronto, Canada. 13 pages (double columns)
+1. **An Wang**, Junfeng Jiang, Youmi Ma, Ao Liu, and Naoaki Okazaki. 2023. Generative Data Augmentation for Aspect Sentiment Quad Prediction. In Proceedings of the 12th Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics. Toronto, Canada. 13 pages (double columns)
 2. Youmi Ma, **An Wang**, and Naoaki Okazaki. Building a Japanese Document-Level Relation Extraction Dataset Assisted by Cross-Lingual Transfer. LREC-COLING 2024, 13 pages (double columns).
 3. **Youmi Ma**, An Wang, Naoaki Okazaki. 2023 DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction, EACL 2023, 13 pages (double columns). 
 4. Ao Liu, **An Wang** and Naoaki Okazaki. 2022. Semi-Supervised Formality Style Transfer with Consistency Training. ACL 2022, 13 pages (double columns).  
