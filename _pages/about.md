@@ -24,7 +24,7 @@ Internships
 
 PrePrint
 ------
-1. **An Wang**, Xingwu Sun, Ruobing Xie, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, JN Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu. HMoE: Heterogeneous Mixture of Experts for Language Modeling. 2024. arXiv.
+1. **An Wang\***, Xingwu Sun\*, Ruobing Xie, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, JN Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu. HMoE: Heterogeneous Mixture of Experts for Language Modeling. 2024. arXiv.
 2. Zhen Yang, J.N.Han, Kan Wu, Ruobing Xie, **An Wang**, Xingwu Sun, Zhanhui Kang. Lossless KV Cache Compression to 2%. 2024. arXiv.
 3. **An Wang**, Ao Liu, Hieu Hanh Le, Haruo Yokota. Towards Effective Multi-Task Interaction for Entity-Relation Extraction: A Unified Framework with Selection Recurrent Network. 2022. arXiv.
 
