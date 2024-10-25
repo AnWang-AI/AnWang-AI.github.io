@@ -30,6 +30,8 @@ PrePrint
 
 Publications
 ======
+My Research focus on Model Pre-training, Information Extraction and Sentiment Analysis.
+
 International Conferences
 ------
 1. **An Wang**, Junfeng Jiang, Youmi Ma, Ao Liu, and Naoaki Okazaki. 2023. Generative Data Augmentation for Aspect Sentiment Quad Prediction. In *Proceedings of the 12th Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics. Toronto, Canada. 13 pages (double columns)
