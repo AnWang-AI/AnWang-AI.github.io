@@ -27,7 +27,7 @@ author:
   bio              : "Ph.D. Student in Computer Science"
   location         : "Tokyo"
   employer         : "Tokyo Institute of Technology"
-  uri              : "https://academicpages.github.io/"
+  # uri              : "https://academicpages.github.io/"
   email            : "an.wang.cs@gmail.com" 
 
   # Academic websites
