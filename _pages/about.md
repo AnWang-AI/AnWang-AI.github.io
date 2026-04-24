@@ -136,19 +136,19 @@ Previously, my research focused on <strong>model architecture</strong>, <strong>
 
 <div class="edu-list">
   <div class="edu-item">
-    <div class="edu-year">2024.05 – Now</div>
+    <div class="edu-year">2024 – Now</div>
     <div class="edu-body">
       <strong>Tencent</strong> — Hunyuan LLM Pretraining Team (Qingyun Project), Beijing
     </div>
   </div>
   <div class="edu-item">
-    <div class="edu-year">2023.10 – 2024.02</div>
+    <div class="edu-year">2023 – 2024</div>
     <div class="edu-body">
       <strong>NEC Laboratories Europe</strong> — Human-centric Team, Heidelberg, Germany
     </div>
   </div>
   <div class="edu-item">
-    <div class="edu-year">2019.08 – 2019.10</div>
+    <div class="edu-year">2019</div>
     <div class="edu-body">
       <strong>Intsig</strong> — Natural Language Understanding Team, Shanghai
     </div>
