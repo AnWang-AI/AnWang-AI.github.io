@@ -20,7 +20,7 @@ Previously, my research focused on <strong>model architecture</strong>, <strong>
 
 <div class="news-list">
   <div class="news-item">
-    <span class="news-date">2025.06</span>
+    <span class="news-date">2026.04</span>
     <span class="news-content">🚀 <a href="https://huggingface.co/tencent/Hy3-preview"><strong>Hy3</strong></a> model released — Tencent Hunyuan's next-generation large language model.</span>
   </div>
   <div class="news-item">
