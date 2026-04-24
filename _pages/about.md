@@ -1,53 +1,166 @@
 ---
 permalink: /
-title: "Introduction"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello, I am An Wang (王安), a final-year Ph.D. student at Tokyo Institute of Technology.
-My research interest includes model architecture and training strategy of large language models (LLMs).
+<div class="apple-intro">
+Hello, I am <strong>An Wang</strong> (王安). I received my Ph.D. in Computer Science from <a href="https://www.titech.ac.jp/english">Institute of Science Tokyo</a> (formerly Tokyo Institute of Technology) in June 2025, advised by Prof. <a href="https://www.nlp.c.titech.ac.jp/">Naoaki Okazaki</a>.
 
-Educations
-------
-- 2015 - 2019, Undergraduate student in the School of Mechatronic Engineering and Automation, Shanghai University
-- 2020 - 2022, Master student in the Department of Computer Science, Tokyo Institute of Technology, advised by Prof. Yokota Haruo.
-- 2022 - 2025, doctoral student in the Department of Computer Science, Tokyo Institute of Technology, advised by Prof. Naoaki Okazaki.
+I am currently working at <strong>Tencent</strong>, on the LLM Pretraining Team (<strong>Qingyun</strong> Project) of Hunyuan. I am a core contributor to <a href="https://huggingface.co/tencent/Hy3-preview"><strong>Hy3</strong></a>, mainly responsible for the <strong>model architecture design</strong> and <strong>base model production</strong>.
 
-Internships
-------
-- 2019.8 - 2019.10, Nature Language Understanding Team, Intsig, Shanghai, China
-- 2023.10 - 2024.2, Human-centric Team, NEC Laboratories Europe, Heidelberg, Germany
-- 2024.5 - Now, LLM Pretraining Team (**Qingyun** Project), Hunyuan Team, TEG, Tencent, Beijing, China
+Previously, my research focused on <strong>model architecture</strong>, <strong>training strategies</strong>, and <strong>scaling laws</strong> for large language models. Nowadays, I am passionate about <strong>AI agents</strong> and <strong>automating all workflows</strong>.
+</div>
 
-PrePrint
-------
-1. **An Wang\***, Xingwu Sun\*, Ruobing Xie, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, JN Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu. **HMoE: Heterogeneous Mixture of Experts for Language Modeling**. 2024. arXiv.
-2. Xingwu Sun, Shuaipeng Li, Ruobing Xie, Weidong Han, Kan Wu, Zhen Yang, Yixing Li, **An Wang**, Shuai Li, Jinbao Xue, Yu Cheng, Yangyu Tao, Zhanhui Kang, Chengzhong Xu, Di Wang, Jie Jiang. **Scaling Laws for Floating–Point Quantization Training**. 2025. arXiv.
-3. Zhen Yang, J.N.Han, Kan Wu, Ruobing Xie, **An Wang**, Xingwu Sun, Zhanhui Kang. **Lossless KV Cache Compression to 2%**. 2024. arXiv.
-4. **An Wang**, Ao Liu, Hieu Hanh Le, Haruo Yokota. Towards Effective Multi-Task Interaction for Entity-Relation Extraction: A Unified Framework with Selection Recurrent Network. 2022. arXiv.
+## News
+{: .section-title}
 
-International Conferences
-------
-1. **An Wang**, Junfeng Jiang, Youmi Ma, Ao Liu, and Naoaki Okazaki. 2023. Generative Data Augmentation for Aspect Sentiment Quad Prediction. In Proceedings of the 12th Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics. ***SEM@ACL 2023**. Toronto, Canada. 13 pages (double columns)
-2. Youmi Ma, **An Wang**, and Naoaki Okazaki. Building a Japanese Document-Level Relation Extraction Dataset Assisted by Cross-Lingual Transfer. **LREC-COLING 2024**, 13 pages (double columns).
-3. Youmi Ma, **An Wang**, Naoaki Okazaki. 2023 DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction, **EACL 2023**, 13 pages (double columns). 
-4. Ao Liu, **An Wang** and Naoaki Okazaki. 2022. Semi-Supervised Formality Style Transfer with Consistency Training. **ACL 2022**, 13 pages (double columns).  
-5. **An Wang\***, Junfeng Jiang\*, and Akiko Aizawa. 2021. Attention-based Relational Graph Convolutional Network for Target-Oriented Opinion Words Extraction. **EACL 2021**, 12 pages (double columns)
-6. **An Wang**, Hieu Hanh Le, Ryosuke Matsuo, Tomoyoshi Yamazaki, Kenji Araki, Haruo Yokota. 2022. MERJ: Medical Entity-Relation Extraction System for Japanese Clinical Texts. DEIM 2022, 8 pages (double columns)
+<div class="news-list">
+  <div class="news-item">
+    <span class="news-date">2025.06</span>
+    <span class="news-content">🚀 <a href="https://huggingface.co/tencent/Hy3-preview"><strong>Hy3</strong></a> model released — Tencent Hunyuan's next-generation large language model.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.06</span>
+    <span class="news-content">🎓 Received Ph.D. degree from Institute of Science Tokyo.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.05</span>
+    <span class="news-content">📄 <em>Scaling Laws for Floating-Point Quantization Training</em> accepted at <strong>ICML 2025</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.01</span>
+    <span class="news-content">🏅 <em>HMoE: Heterogeneous Mixture of Experts for Language Modeling</em> received <strong>SAC Highlight Award</strong> at <strong>EMNLP 2025</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.01</span>
+    <span class="news-content">📄 <em>Sparsifying Mamba</em> accepted at <strong>EMNLP 2025 Findings</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025</span>
+    <span class="news-content">🏆 Excellence Award from the Association for Natural Language Processing (NLP 2025).</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024.05</span>
+    <span class="news-content">💼 Joined Tencent Hunyuan LLM Pretraining Team (Qingyun Project).</span>
+  </div>
+</div>
 
-Journal
-------
-1. **An Wang**, Huidong Jiang, Youmi Ma, Junfeng Jiang, Ao Liu, Naoaki Okazaki. 2025. Improving Implicit Sentiments Analysis via Explanations of Multiple Perspectives. IEEE ACCESS 2025. 
-2. **An Wang**, Huidong Jiang, Youmi Ma, Junfeng Jiang, Ao Liu, Naoaki Okazaki. 2024. Abisa-Ex: Understanding Implicit Sentiments by Explanations. Journal of Nature Language Processing, 2024 Volume 31 Issue 4 1523-1544, December 2024.
-3. **An Wang**, Junfeng Jiang, Youmi Ma, Ao Liu, and Naoaki Okazaki. Generative Data Augmentation for Aspect Sentiment Quad Prediction. Journal of Natural Language Processing, 31(4):to appear, December 2024.
-4. Youmi Ma, **An Wang**, and 岡崎 直観. 文書レベル関係抽出における根拠認識の統合. 自然言語処理, 31(1):105–133, March 2024.
+## Selected Publications
+{: .section-title}
 
-Honors and Awards
-------
-1. Excellence Award, the Association for Natural Language Processing. 2025
-2. **Best paper Award** in the 29th Annual Meeting of The Association for Natural Language Processing. 2023
-3. Advanced Human Resource Development Fellowship for Doctoral Students, Tokyo Institute of Technology, 2022-2023
-4. Spring Scholarship for Doctoral Students, Tokyo Institute of Technology, 2023-2024
+<div class="pub-list">
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EMNLP 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">HMoE: Heterogeneous Mixture of Experts for Language Modeling</div>
+      <div class="pub-meta"><strong>An Wang*</strong>, Xingwu Sun*, Ruobing Xie, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, JN Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu</div>
+      <div class="pub-venue">EMNLP 2025 Main — <span class="pub-highlight">🏅 SAC Highlight Award</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">ICML 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Scaling Laws for Floating-Point Quantization Training</div>
+      <div class="pub-meta">Xingwu Sun, Shuaipeng Li, Ruobing Xie, Weidong Han, Kan Wu, Zhen Yang, Yixing Li, <strong>An Wang</strong>, Shuai Li, Jinbao Xue, Yu Cheng, Yangyu Tao, Zhanhui Kang, Chengzhong Xu, Di Wang, Jie Jiang</div>
+      <div class="pub-venue">ICML 2025</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EMNLP 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Sparsifying Mamba</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Ruobing Xie, Shuaipeng Li, Xingwu Sun, Zhanhui Kang</div>
+      <div class="pub-venue">EMNLP 2025 Findings</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-preprint">arXiv 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Towards a Comprehensive Scaling Law of Mixture-of-Experts</div>
+      <div class="pub-meta">G Zhao, Y Fu, S Li, X Sun, R Xie, <strong>An Wang</strong>, W Han, Z Yang, W Sun, et al.</div>
+      <div class="pub-venue">arXiv preprint, 2025</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EACL 2023</div>
+    <div class="pub-body">
+      <div class="pub-title">DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction</div>
+      <div class="pub-meta">Youmi Ma, <strong>An Wang</strong>, Naoaki Okazaki</div>
+      <div class="pub-venue">EACL 2023 — <span class="pub-cite">Cited by 152</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="pub-more">
+  <a href="/publications/" class="apple-btn">View All Publications →</a>
+</div>
+
+## Education
+{: .section-title}
+
+<div class="edu-list">
+  <div class="edu-item">
+    <div class="edu-year">2022 – 2025</div>
+    <div class="edu-body">
+      <strong>Ph.D.</strong> in Computer Science, Institute of Science Tokyo 🇯🇵<br>
+      <span class="edu-detail">Advised by Prof. Naoaki Okazaki</span>
+    </div>
+  </div>
+  <div class="edu-item">
+    <div class="edu-year">2020 – 2022</div>
+    <div class="edu-body">
+      <strong>M.Eng.</strong> in Computer Science, Tokyo Institute of Technology 🇯🇵<br>
+      <span class="edu-detail">Advised by Prof. Haruo Yokota</span>
+    </div>
+  </div>
+  <div class="edu-item">
+    <div class="edu-year">2015 – 2019</div>
+    <div class="edu-body">
+      <strong>B.Eng.</strong> in Mechatronic Engineering, Shanghai University 🇨🇳
+    </div>
+  </div>
+</div>
+
+## Experience
+{: .section-title}
+
+<div class="edu-list">
+  <div class="edu-item">
+    <div class="edu-year">2024 – Now</div>
+    <div class="edu-body">
+      <strong>Tencent</strong> — Hunyuan LLM Pretraining Team (Qingyun Project), Beijing 🇨🇳
+    </div>
+  </div>
+  <div class="edu-item">
+    <div class="edu-year">2023 – 2024</div>
+    <div class="edu-body">
+      <strong>NEC Laboratories Europe</strong> — Human-centric Team, Heidelberg, Germany 🇩🇪
+    </div>
+  </div>
+  <div class="edu-item">
+    <div class="edu-year">2019</div>
+    <div class="edu-body">
+      <strong>Intsig</strong> — Natural Language Understanding Team, Shanghai 🇨🇳
+    </div>
+  </div>
+</div>
+
+## Honors & Awards
+{: .section-title}
+
+<div class="award-list">
+  <div class="award-item"><span class="award-year">2025</span> Excellence Award, the Association for Natural Language Processing</div>
+  <div class="award-item"><span class="award-year">2023</span> 🏆 <strong>Best Paper Award</strong>, 29th Annual Meeting of The Association for Natural Language Processing</div>
+  <div class="award-item"><span class="award-year">2023</span> Spring Scholarship for Doctoral Students, Tokyo Institute of Technology</div>
+  <div class="award-item"><span class="award-year">2022</span> Advanced Human Resource Development Fellowship, Tokyo Institute of Technology</div>
+</div>
