@@ -112,21 +112,21 @@ Previously, my research focused on <strong>model architecture</strong>, <strong>
   <div class="edu-item">
     <div class="edu-year">2022 – 2025</div>
     <div class="edu-body">
-      <strong>Ph.D.</strong> in Computer Science, Institute of Science Tokyo<br>
+      <strong>Ph.D.</strong> in Computer Science, Institute of Science Tokyo 🇯🇵<br>
       <span class="edu-detail">Advised by Prof. Naoaki Okazaki</span>
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2020 – 2022</div>
     <div class="edu-body">
-      <strong>M.Eng.</strong> in Computer Science, Tokyo Institute of Technology<br>
+      <strong>M.Eng.</strong> in Computer Science, Tokyo Institute of Technology 🇯🇵<br>
       <span class="edu-detail">Advised by Prof. Haruo Yokota</span>
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2015 – 2019</div>
     <div class="edu-body">
-      <strong>B.Eng.</strong> in Mechatronic Engineering, Shanghai University
+      <strong>B.Eng.</strong> in Mechatronic Engineering, Shanghai University 🇨🇳
     </div>
   </div>
 </div>
@@ -138,19 +138,19 @@ Previously, my research focused on <strong>model architecture</strong>, <strong>
   <div class="edu-item">
     <div class="edu-year">2024 – Now</div>
     <div class="edu-body">
-      <strong>Tencent</strong> — Hunyuan LLM Pretraining Team (Qingyun Project), Beijing
+      <strong>Tencent</strong> — Hunyuan LLM Pretraining Team (Qingyun Project), Beijing 🇨🇳
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2023 – 2024</div>
     <div class="edu-body">
-      <strong>NEC Laboratories Europe</strong> — Human-centric Team, Heidelberg, Germany
+      <strong>NEC Laboratories Europe</strong> — Human-centric Team, Heidelberg, Germany 🇩🇪
     </div>
   </div>
   <div class="edu-item">
     <div class="edu-year">2019</div>
     <div class="edu-body">
-      <strong>Intsig</strong> — Natural Language Understanding Team, Shanghai
+      <strong>Intsig</strong> — Natural Language Understanding Team, Shanghai 🇨🇳
     </div>
   </div>
 </div>
