@@ -77,31 +77,39 @@ a {
 /* ---------- Main Layout ---------- */
 
 #main {
-  max-width: 1100px !important;
-  margin-top: 1.5em;
-  padding-left: 2em;
-  padding-right: 2em;
+  max-width: 1400px !important;
+  margin-top: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 .page {
   line-height: 1.7;
 }
 
+/* Hide empty page title */
+.page__title:empty,
+h1.page__title:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* ---------- Sidebar / Author Profile ---------- */
 
 .sidebar {
-  padding-top: 60px;
+  padding-top: 56px;
 
   @media screen and (min-width: 1024px) {
-    padding-top: 60px;
+    padding-top: 56px;
   }
 }
 
 .author__avatar {
-  margin-bottom: 0.8em;
+  margin-bottom: 0.6em;
 
   img {
-    max-width: 160px !important;
+    max-width: 150px !important;
     border-radius: 50% !important;
     border: none !important;
     padding: 0 !important;
@@ -115,37 +123,51 @@ a {
   }
 }
 
+.author__content {
+  margin-bottom: 0.4em;
+}
+
 .author__name {
   font-weight: 600 !important;
-  font-size: 1.125em !important;
+  font-size: 1.1em !important;
   color: #1d1d1f;
   letter-spacing: -0.02em;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.3em !important;
+  margin-top: 0.4em !important;
+  margin-bottom: 0.15em !important;
+  line-height: 1.3;
 }
 
 .author__bio {
   color: #6e6e73 !important;
-  font-size: 0.85em !important;
-  line-height: 1.5;
+  font-size: 0.82em !important;
+  line-height: 1.45;
   font-weight: 400;
+  margin-top: 0 !important;
+  margin-bottom: 0.6em !important;
 }
 
 .author__urls-wrapper {
+  margin-top: 0;
+
   .btn--inverse {
     display: none !important;
   }
 }
 
 .author__urls {
+  margin-top: 0 !important;
+
   li {
-    margin-bottom: 2px;
+    margin-bottom: 1px;
+    line-height: 1.4;
   }
 
   a {
     color: #424245 !important;
-    font-size: 0.84em !important;
+    font-size: 0.82em !important;
     font-weight: 400;
+    padding-top: 1px;
+    padding-bottom: 1px;
     transition: color 0.2s ease;
 
     &:hover {
@@ -156,6 +178,14 @@ a {
 
   .icon-pad-right {
     color: #86868b;
+    width: 1.1em;
+  }
+
+  .author__desktop {
+    font-size: 0.82em;
+    color: #6e6e73;
+    line-height: 1.4;
+    margin-bottom: 1px;
   }
 }
 
