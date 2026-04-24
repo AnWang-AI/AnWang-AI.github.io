@@ -5,32 +5,171 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="pub-page-intro">
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  <span class="pub-stats">Citations: <strong>305</strong> · h-index: <strong>6</strong> · i10-index: <strong>5</strong></span>
+</div>
 
+<h2 class="section-title">Conferences</h2>
 
+<div class="pub-list">
 
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EMNLP 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">HMoE: Heterogeneous Mixture of Experts for Language Modeling</div>
+      <div class="pub-meta"><strong>An Wang*</strong>, Xingwu Sun*, Ruobing Xie, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, JN Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu</div>
+      <div class="pub-venue">EMNLP 2025 Main — <span class="pub-highlight">🏅 SAC Highlight Award</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">ICML 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Scaling Laws for Floating-Point Quantization Training</div>
+      <div class="pub-meta">Xingwu Sun, Shuaipeng Li, Ruobing Xie, Weidong Han, Kan Wu, Zhen Yang, Yixing Li, <strong>An Wang</strong>, Shuai Li, Jinbao Xue, Yu Cheng, Yangyu Tao, Zhanhui Kang, Chengzhong Xu, Di Wang, Jie Jiang</div>
+      <div class="pub-venue">ICML 2025</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EMNLP 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Sparsifying Mamba</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Ruobing Xie, Shuaipeng Li, Xingwu Sun, Zhanhui Kang</div>
+      <div class="pub-venue">EMNLP 2025 Findings</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">LREC-COLING 2024</div>
+    <div class="pub-body">
+      <div class="pub-title">Building a Japanese Document-Level Relation Extraction Dataset Assisted by Cross-Lingual Transfer</div>
+      <div class="pub-meta">Youmi Ma, <strong>An Wang</strong>, Naoaki Okazaki</div>
+      <div class="pub-venue">LREC-COLING 2024</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">*SEM 2023</div>
+    <div class="pub-body">
+      <div class="pub-title">Generative Data Augmentation for Aspect Sentiment Quad Prediction</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Junfeng Jiang, Youmi Ma, Ao Liu, Naoaki Okazaki</div>
+      <div class="pub-venue">*SEM @ ACL 2023 — <span class="pub-cite">Cited by 32</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EACL 2023</div>
+    <div class="pub-body">
+      <div class="pub-title">DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction</div>
+      <div class="pub-meta">Youmi Ma, <strong>An Wang</strong>, Naoaki Okazaki</div>
+      <div class="pub-venue">EACL 2023 — <span class="pub-cite">Cited by 152</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">ACL 2022</div>
+    <div class="pub-body">
+      <div class="pub-title">Semi-Supervised Formality Style Transfer with Consistency Training</div>
+      <div class="pub-meta">Ao Liu, <strong>An Wang</strong>, Naoaki Okazaki</div>
+      <div class="pub-venue">ACL 2022 Main — <span class="pub-cite">Cited by 24</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">EACL 2021</div>
+    <div class="pub-body">
+      <div class="pub-title">Attention-based Relational Graph Convolutional Network for Target-Oriented Opinion Words Extraction</div>
+      <div class="pub-meta"><strong>An Wang*</strong>, Junfeng Jiang*, Akiko Aizawa</div>
+      <div class="pub-venue">EACL 2021 Main — <span class="pub-cite">Cited by 41</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-conference">DEIM 2022</div>
+    <div class="pub-body">
+      <div class="pub-title">MERJ: Medical Entity-Relation Extraction System for Japanese Clinical Texts</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Hieu Hanh Le, Ryosuke Matsuo, Tomoyoshi Yamazaki, Kenji Araki, Haruo Yokota</div>
+      <div class="pub-venue">DEIM 2022</div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="section-title">Journals</h2>
+
+<div class="pub-list">
+
+  <div class="pub-item">
+    <div class="pub-badge badge-journal">IEEE Access 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Improving Implicit Sentiments Analysis via Explanations of Multiple Perspectives</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Huidong Jiang, Youmi Ma, Junfeng Jiang, Ao Liu, Naoaki Okazaki</div>
+      <div class="pub-venue">IEEE Access, 2025</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-journal">JNLP 2024</div>
+    <div class="pub-body">
+      <div class="pub-title">Abisa-Ex: Understanding Implicit Sentiments by Explanations</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Huidong Jiang, Youmi Ma, Junfeng Jiang, Ao Liu, Naoaki Okazaki</div>
+      <div class="pub-venue">Journal of Natural Language Processing, 31(4), 2024</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-journal">JNLP 2024</div>
+    <div class="pub-body">
+      <div class="pub-title">Generative Data Augmentation for Aspect Sentiment Quad Prediction</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Junfeng Jiang, Youmi Ma, Ao Liu, Naoaki Okazaki</div>
+      <div class="pub-venue">Journal of Natural Language Processing, 31(4), 2024</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-journal">JNLP 2024</div>
+    <div class="pub-body">
+      <div class="pub-title">文書レベル関係抽出における根拠認識の統合</div>
+      <div class="pub-meta">Youmi Ma, <strong>An Wang</strong>, 岡崎 直観</div>
+      <div class="pub-venue">自然言語処理, 31(1):105–133, 2024</div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="section-title">Preprints</h2>
+
+<div class="pub-list">
+
+  <div class="pub-item">
+    <div class="pub-badge badge-preprint">arXiv 2025</div>
+    <div class="pub-body">
+      <div class="pub-title">Towards a Comprehensive Scaling Law of Mixture-of-Experts</div>
+      <div class="pub-meta">G Zhao, Y Fu, S Li, X Sun, R Xie, <strong>An Wang</strong>, W Han, Z Yang, W Sun, et al.</div>
+      <div class="pub-venue">arXiv preprint, 2025</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-preprint">arXiv 2024</div>
+    <div class="pub-body">
+      <div class="pub-title">Lossless KV Cache Compression to 2%</div>
+      <div class="pub-meta">Zhen Yang, JN Han, Kan Wu, Ruobing Xie, <strong>An Wang</strong>, Xingwu Sun, Zhanhui Kang</div>
+      <div class="pub-venue">arXiv 2410.15252, 2024</div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-badge badge-preprint">arXiv 2022</div>
+    <div class="pub-body">
+      <div class="pub-title">Towards Effective Multi-Task Interaction for Entity-Relation Extraction: A Unified Framework with Selection Recurrent Network</div>
+      <div class="pub-meta"><strong>An Wang</strong>, Ao Liu, Hieu Hanh Le, Haruo Yokota</div>
+      <div class="pub-venue">arXiv preprint, 2022</div>
+    </div>
+  </div>
+
+</div>
