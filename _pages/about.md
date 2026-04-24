@@ -32,11 +32,11 @@ Previously, my research focused on <strong>model architecture</strong>, <strong>
     <span class="news-content">📄 <em>Scaling Laws for Floating-Point Quantization Training</em> accepted at <strong>ICML 2025</strong>.</span>
   </div>
   <div class="news-item">
-    <span class="news-date">2025.01</span>
+    <span class="news-date">2025.11</span>
     <span class="news-content">🏅 <em>HMoE: Heterogeneous Mixture of Experts for Language Modeling</em> received <strong>SAC Highlight Award</strong> at <strong>EMNLP 2025</strong>.</span>
   </div>
   <div class="news-item">
-    <span class="news-date">2025.01</span>
+    <span class="news-date">2025.11</span>
     <span class="news-content">📄 <em>Sparsifying Mamba</em> accepted at <strong>EMNLP 2025 Findings</strong>.</span>
   </div>
   <div class="news-item">
