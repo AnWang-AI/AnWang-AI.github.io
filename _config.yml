@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "An Wang / Home page"
+title                    : "An Wang"
 title_separator          : "-"
 name                     : &name "An Wang"
 description              : &description "Ph.D. in Computer Science"
