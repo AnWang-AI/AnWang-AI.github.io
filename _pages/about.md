@@ -10,7 +10,7 @@ redirect_from:
 <div class="apple-intro">
 Hello, I am <strong>An Wang</strong> (王安). I received my Ph.D. in Computer Science from <a href="https://www.titech.ac.jp/english">Institute of Science Tokyo</a> (formerly Tokyo Institute of Technology) in June 2025, advised by Prof. <a href="https://www.nlp.c.titech.ac.jp/">Naoaki Okazaki</a>.
 
-I am currently working at <strong>Tencent</strong>, on the LLM Pretraining Team (<strong>Qingyun</strong> Project) of Hunyuan. I am a core contributor to <a href="https://huggingface.co/tencent/Hy3-preview"><strong>Hy3</strong></a>, where I led the design of the <strong>model architecture</strong> and the <strong>base model production</strong>.
+I am currently working at <strong>Tencent</strong>, on the LLM Pretraining Team (<strong>Qingyun</strong> Project) of Hunyuan. I am a core contributor to <a href="https://huggingface.co/tencent/Hy3-preview"><strong>Hy3</strong></a>, mainly responsible for the <strong>model architecture design</strong> and <strong>base model production</strong>.
 
 Previously, my research focused on <strong>model architecture</strong>, <strong>training strategies</strong>, and <strong>scaling laws</strong> for large language models. Nowadays, I am passionate about <strong>AI agents</strong> and <strong>automating all workflows</strong>.
 </div>
