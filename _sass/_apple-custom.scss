@@ -161,24 +161,37 @@ h1.page__title:empty {
   margin-top: 0 !important;
   padding-top: 0.6em !important;
   border-top: 1px solid #f0f0f5;
+  list-style: none;
+  font-family: "Inter", -apple-system, sans-serif;
+  font-size: 13px;
+  color: #424245;
+  line-height: 1.45;
 
-  li {
-    margin-bottom: 0;
-    padding: 0.22em 0;
-    line-height: 1.4;
-    font-family: "Inter", -apple-system, sans-serif;
-    font-size: 0.8em;
-    color: #424245;
+  li,
+  li.author__desktop {
+    margin: 0;
+    padding: 0.25em 0;
+    font-size: 13px !important;
+    font-family: "Inter", -apple-system, sans-serif !important;
+    font-weight: 400 !important;
+    color: #424245 !important;
+    line-height: 1.45 !important;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
   }
 
   a {
-    color: #424245 !important;
-    font-size: 1em !important;
+    color: inherit !important;
+    font-size: inherit !important;
     font-family: inherit !important;
-    font-weight: 400;
+    font-weight: inherit !important;
+    line-height: inherit !important;
     display: inline-flex;
     align-items: center;
-    gap: 0.15em;
+    gap: 0.3em;
+    margin: 0;
+    padding: 0;
     transition: color 0.2s ease;
 
     &:hover {
@@ -187,26 +200,13 @@ h1.page__title:empty {
     }
   }
 
+  i,
   .icon-pad-right {
     color: #86868b;
-    width: 1.2em;
-    font-size: 0.9em;
+    width: 1.15em;
+    font-size: 12px;
     text-align: center;
-  }
-
-  .author__desktop {
-    font-size: 1em;
-    font-family: inherit;
-    color: #424245;
-    line-height: 1.4;
-    padding: 0.22em 0;
-    display: flex;
-    align-items: center;
-    gap: 0.15em;
-
-    .icon-pad-right {
-      color: #86868b;
-    }
+    flex-shrink: 0;
   }
 }
 
