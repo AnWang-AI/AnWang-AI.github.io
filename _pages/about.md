@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="apple-intro">
-Hello, I am <strong>An Wang</strong> (王安). I received my Ph.D. in Computer Science from <a href="https://www.titech.ac.jp/english">Institute of Science Tokyo</a> (formerly Tokyo Institute of Technology) in June 2025, advised by Prof. <a href="https://www.okazaki-lab.com/">Naoaki Okazaki</a>.
+Hello, I am <strong>An Wang</strong> (王安). I received my Ph.D. in Computer Science from <a href="https://www.titech.ac.jp/english">Institute of Science Tokyo</a> (formerly Tokyo Institute of Technology) in June 2025, advised by Prof. <a href="https://www.nlp.c.titech.ac.jp/">Naoaki Okazaki</a>.
 
 I am currently working at <strong>Tencent</strong>, on the LLM Pretraining Team (<strong>Qingyun</strong> Project) of Hunyuan. My research focuses on <strong>model architecture</strong>, <strong>training strategies</strong>, and <strong>scaling laws</strong> for large language models.
 </div>
