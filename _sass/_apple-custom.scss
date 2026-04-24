@@ -159,22 +159,26 @@ h1.page__title:empty {
 
 .author__urls {
   margin-top: 0 !important;
-  padding-top: 0.5em !important;
+  padding-top: 0.6em !important;
   border-top: 1px solid #f0f0f5;
 
   li {
     margin-bottom: 0;
-    padding: 0.2em 0;
-    line-height: 1.35;
+    padding: 0.22em 0;
+    line-height: 1.4;
+    font-family: "Inter", -apple-system, sans-serif;
+    font-size: 0.8em;
+    color: #424245;
   }
 
   a {
     color: #424245 !important;
-    font-size: 0.8em !important;
+    font-size: 1em !important;
+    font-family: inherit !important;
     font-weight: 400;
     display: inline-flex;
     align-items: center;
-    gap: 0.1em;
+    gap: 0.15em;
     transition: color 0.2s ease;
 
     &:hover {
@@ -185,21 +189,23 @@ h1.page__title:empty {
 
   .icon-pad-right {
     color: #86868b;
-    width: 1.15em;
-    font-size: 0.95em;
+    width: 1.2em;
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .author__desktop {
-    font-size: 0.8em;
-    color: #6e6e73;
-    line-height: 1.35;
-    padding: 0.2em 0;
+    font-size: 1em;
+    font-family: inherit;
+    color: #424245;
+    line-height: 1.4;
+    padding: 0.22em 0;
     display: flex;
     align-items: center;
-    gap: 0.2em;
+    gap: 0.15em;
 
     .icon-pad-right {
-      color: #b0b0b5;
+      color: #86868b;
     }
   }
 }
