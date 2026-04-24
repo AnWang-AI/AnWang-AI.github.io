@@ -1,20 +1,20 @@
 /* ==========================================================================
-   Variables — Apple-style minimal design
+   Variables — Apple-style with Inter font
    ========================================================================== */
 
 /*
    Typography
    ========================================================================== */
 
-$doc-font-size              : 17;
+$doc-font-size              : 16;
 
 /* paragraph indention */
 $paragraph-indent           : false;
 $indent-var                 : 1.3em;
 
-/* system typefaces — Apple SF Pro stack */
+/* system typefaces */
 $serif                      : Georgia, "Times New Roman", serif;
-$sans-serif                 : -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Arial", sans-serif;
 $monospace                  : "SF Mono", "Fira Code", "Consolas", "Monaco", monospace;
 
 /* sans serif typefaces */
@@ -33,21 +33,21 @@ $header-font-family         : $sans-serif;
 $caption-font-family        : $sans-serif;
 
 /* type scale */
-$type-size-1                : 2.5em;    // ~42px
-$type-size-2                : 1.875em;  // ~32px
-$type-size-3                : 1.5em;    // ~25px
-$type-size-4                : 1.25em;   // ~21px
-$type-size-5                : 1em;      // ~17px
-$type-size-6                : 0.8125em; // ~14px
-$type-size-7                : 0.75em;   // ~13px
-$type-size-8                : 0.6875em; // ~12px
+$type-size-1                : 2.25em;   // ~36px
+$type-size-2                : 1.75em;   // ~28px
+$type-size-3                : 1.375em;  // ~22px
+$type-size-4                : 1.125em;  // ~18px
+$type-size-5                : 1em;      // ~16px
+$type-size-6                : 0.8125em; // ~13px
+$type-size-7                : 0.75em;   // ~12px
+$type-size-8                : 0.6875em; // ~11px
 
 /* masthead properties */
-$masthead-height            : 52px;
+$masthead-height            : 48px;
 
 /* Sidebar properties */
 $sidebar-screen-min-width   : 1024px;
-$sidebar-link-max-width     : 250px;
+$sidebar-link-max-width     : 260px;
 
 
 
@@ -65,7 +65,7 @@ $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #f5f5f7;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
+$text-color                 : #333336;
 $border-color               : #e8e8ed;
 
 $primary-color              : #1d1d1f;
@@ -105,7 +105,7 @@ $xing-color                 : #006567;
 $link-color                 : #0071e3;
 $link-color-hover           : #0077ed;
 $link-color-visited         : #0071e3;
-$masthead-link-color        : $dark-gray;
+$masthead-link-color        : #1d1d1f;
 $masthead-link-color-hover  : #0071e3;
 
 
@@ -118,7 +118,7 @@ $masthead-link-color-hover  : #0071e3;
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 980px !default;
+$large                      : 1024px !default;
 $x-large                    : 1280px !default;
 
 /*
@@ -126,13 +126,13 @@ $x-large                    : 1280px !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow : 200px !default;
-$right-sidebar-width        : 280px !default;
-$right-sidebar-width-wide   : 360px !default;
+$right-sidebar-width        : 260px !default;
+$right-sidebar-width-wide   : 320px !default;
 
 $susy: (
   columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
+  column-width: 90px,
+  gutters: 1/3,
   math: fluid,
   output: float,
   gutter-position: after,
@@ -146,7 +146,7 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 12px;
-$box-shadow                 : 0 2px 12px rgba(0, 0, 0, 0.08);
+$box-shadow                 : 0 2px 12px rgba(0, 0, 0, 0.06);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$global-transition          : all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+$global-transition          : all 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
